@@ -1,0 +1,41 @@
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bookCatalog{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 30px;
+    box-sizing: border-box;
+    box-shadow: 20px -40px 30px 5px black;
+}
+
+
+.bookData{
+    display: flex;
+}
+
+.textContent{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+}
+.buttons{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+
+.showMOre{
+    width: 400px;
+    height: 200px;
+    background-color: aqua;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: -220px;
+    right: 0;
+    z-index: 1;
+}
